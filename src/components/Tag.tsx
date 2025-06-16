@@ -1,4 +1,3 @@
-import React from "react";
 
 type TagProps = {
   img: string;

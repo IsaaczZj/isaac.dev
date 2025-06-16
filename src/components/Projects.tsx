@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card";
 import refound from "../assets/projects/refound.png";
 import advinhe from "../assets/projects/adinha.png";
