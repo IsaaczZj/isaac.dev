@@ -35,12 +35,12 @@ const Presentation = () => {
             desafios complexos.
           </p>
         </header>
-        <div className="mt-10 -mb-10 grid grid-cols-2 md:flex gap-2 ">
-          <Tag img={gitHub} text="GitHub" />
+        <div className="mt-10 -mb-10 w-full flex flex-wrap items-center justify-center gap-2 md:gap-4">
           <Tag img={html} text="HTML" />
-          <Tag img={ts} text="TypeScript" />
           <Tag img={css} text="CSS" />
+          <Tag img={gitHub} text="GitHub" />
           <Tag img={js} text="JavaScript" />
+          <Tag img={ts} text="TypeScript" />
           <Tag img={react} text="React " />
           <Tag img={node} text="Node.js" />
         </div>
