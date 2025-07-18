@@ -16,6 +16,11 @@ const Contacts = () => {
         </header>
         <div className="mt-10 space-y-5">
           <CardContact
+            img={mail}
+            text="Currículo"
+            link="/isaac-medeiros-currículo.pdf"
+          />
+          <CardContact
             img={linkedin}
             text="Linkedin"
             link="https://www.linkedin.com/in/isaac-medeiros-dev/"

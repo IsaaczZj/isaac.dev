@@ -4,7 +4,7 @@ import advinhe from "../assets/projects/adinha.png";
 import form from "../assets/projects/formlogin.png";
 import fintech from "../assets/projects/fintech.png";
 import hairDay from "../assets/projects/hair.png";
-import zingen from "../assets/projects/zinguen.png";
+import purpleCalculator from "../assets/projects/purplecalculator.png";
 const Projects = () => {
   return (
     <div className="container flex flex-col justify-center items-center py-20 px-10">
@@ -26,11 +26,12 @@ const Projects = () => {
           project_link="https://adivinha-o-gamma.vercel.app"
         />
         <Card
-          img={form}
-          title="Form Login"
-          description="Um sistema de usuários com funcionalidades de login e cadastro"
-          project_link="https://github.com/IsaaczZj/FormLoginDark"
+          img={purpleCalculator}
+          title="Purple Calculator"
+          description="Uma calculadora completa e modular"
+          project_link="https://purple-calculator-tnl1-2lbbfa9a6.vercel.app"
         />
+
         <Card
           img={fintech}
           title="Fintech"
@@ -44,10 +45,10 @@ const Projects = () => {
           project_link="https://github.com/IsaaczZj/hair_day"
         />
         <Card
-          img={zingen}
-          title="Zingen"
-          description="Landing Page completa e responsiva de um aplicativo de Karaokê"
-          project_link="https://isaaczzj.github.io/zingen/"
+          img={form}
+          title="Form Login"
+          description="Um sistema de usuários com funcionalidades de login e cadastro"
+          project_link="https://github.com/IsaaczZj/FormLoginDark"
         />
       </div>
     </div>
