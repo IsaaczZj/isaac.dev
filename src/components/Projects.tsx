@@ -1,9 +1,9 @@
 import Card from "./Card";
 import refound from "../assets/projects/refound.png";
 import advinhe from "../assets/projects/adinha.png";
-import form from "../assets/projects/formlogin.png";
+import planer from "../assets/projects/plan.er.jpg";
 import fintech from "../assets/projects/fintech.png";
-import hairDay from "../assets/projects/hair.png";
+import todo from "../assets/projects/todo.jpg";
 import purpleCalculator from "../assets/projects/purplecalculator.png";
 const Projects = () => {
   return (
@@ -20,6 +20,24 @@ const Projects = () => {
           project_link="https://github.com/IsaaczZj/Refound"
         />
         <Card
+          img={planer}
+          title="Plan.er"
+          description="Sistema full-stack para organizar viagens com envio de emails"
+          project_link="https://github.com/IsaaczZj/trip-planner-front-end"
+        />
+        <Card
+          img={todo}
+          title="My Tasks"
+          description="Um sistema full-stack de gerenciamento de tarefas"
+          project_link="https://github.com/IsaaczZj/full-stack-todo"
+        />
+        <Card
+          img={fintech}
+          title="Fintech"
+          description="Um sistema de dashboard financeiro (Fintech)"
+          project_link="https://fintech-liard-two.vercel.app"
+        />
+        <Card
           img={advinhe}
           title="Advinhe"
           description="Um jogo divertido de adivinhação de palavras"
@@ -30,25 +48,6 @@ const Projects = () => {
           title="Purple Calculator"
           description="Uma calculadora completa e modular"
           project_link="https://purple-calculator-tnl1-2lbbfa9a6.vercel.app"
-        />
-
-        <Card
-          img={fintech}
-          title="Fintech"
-          description="Um sistema de dashboard financeiro (Fintech)"
-          project_link="https://fintech-liard-two.vercel.app"
-        />
-        <Card
-          img={hairDay}
-          title="Hair Day"
-          description="Sistema para facilitar agendamentos em salões de beleza"
-          project_link="https://github.com/IsaaczZj/hair_day"
-        />
-        <Card
-          img={form}
-          title="Form Login"
-          description="Um sistema de usuários com funcionalidades de login e cadastro"
-          project_link="https://github.com/IsaaczZj/FormLoginDark"
         />
       </div>
     </div>

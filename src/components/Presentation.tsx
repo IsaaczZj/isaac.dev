@@ -2,12 +2,11 @@ import layoutImage from "../assets/User.png";
 import foto from "../assets/foto.png";
 import Tag from "./Tag";
 import gitHub from "../assets/colored_icons/GitHub.svg";
-import html from "../assets/colored_icons/HTML.svg";
-import css from "../assets/colored_icons/CSS.svg";
 import js from "../assets/colored_icons/JavaScript.svg";
 import ts from "../assets/colored_icons/ts-logo.png";
 import react from "../assets/colored_icons/React.svg";
 import node from "../assets/colored_icons/Node.js.svg";
+import next from "../assets/colored_icons/Nextjs.svg";
 const Presentation = () => {
   return (
     <div className="presentation px-10">
@@ -26,7 +25,7 @@ const Presentation = () => {
             <span className="text-red">Isaac Medeiros</span> e sou
           </h3>
           <h1 className="text-xl md:text-5xl font-semibold -mt-4">
-            Desenvolvedor Front-End
+            Desenvolvedor Full-Stack
           </h1>
           <p className="text-center md:w-2xl text-gray-400">
             Transformo necessidades em aplicações reais, evolventes e
@@ -36,13 +35,12 @@ const Presentation = () => {
           </p>
         </header>
         <div className="mt-10 -mb-10 w-full flex flex-wrap items-center justify-center gap-2 md:gap-4">
-          <Tag img={html} text="HTML" />
-          <Tag img={css} text="CSS" />
-          <Tag img={gitHub} text="GitHub" />
           <Tag img={js} text="JavaScript" />
           <Tag img={ts} text="TypeScript" />
           <Tag img={react} text="React " />
-          <Tag img={node} text="Node.js" />
+          <Tag img={next} text="Next Js" />
+          <Tag img={node} text="Node Js" />
+          <Tag img={gitHub} text="Git/GitHub" />
         </div>
       </div>
     </div>
